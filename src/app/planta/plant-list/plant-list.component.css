@@ -1,0 +1,29 @@
+.vivero-header {
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  
+  .vivero-header h1 {
+    margin-bottom: 0.5em; /* Adjusts space below the title */
+  }
+  
+  .header-line {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, #ccc, transparent);
+    margin: 1.5em 0;
+  }
+  
+  .table {
+    background-color: white;
+  }
+  
+  .table .thead-dark th {
+    background-color: #343a40; /* Bootstrap dark gray */
+    color: white;
+  }
+  
+  .footer {
+    color: black; /* Bootstrap muted text color */
+    background-color: transparent; /* Sin relleno de color */
+  }
