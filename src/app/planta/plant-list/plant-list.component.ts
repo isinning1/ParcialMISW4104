@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Planta} from '../planta';
 @Component({
   selector: 'app-plant-list',
   templateUrl: './plant-list.component.html',
@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlantListComponent implements OnInit {
 
+  plantas: Array<Planta> = [];
   constructor() { }
 
-  ngOnInit() {
-  }
-
+ ngOnInit() {
+ }
 }
