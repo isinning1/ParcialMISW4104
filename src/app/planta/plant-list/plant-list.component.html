@@ -1,3 +1,32 @@
-<p>
-  plant-list works!
-</p>
+<div class="vivero-header">
+  <h1>Vivero El Otoño</h1>
+</div>
+
+<div class="container my-4">
+  <div class="row">
+    <div class="col-12">
+      <table class="table table-striped">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre común</th>
+            <th scope="col">Tipo</th>
+            <th scope="col">Clima</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let planta of plantas; let i = index">
+            <th scope="row">{{ i + 1 }}</th>
+            <td>{{ planta.nombre_comun }}</td>
+            <td>{{ planta.tipo }}</td>
+            <td>{{ planta.clima }}</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+<footer class="footer mt-auto py-3 bg-light">
+  <div class="container text-center">
+    <span class="text-muted">Contact us: +57 3102105253 - info@viveroelotono.com - @viveroelotono</span>
+  </div>
+</footer>
